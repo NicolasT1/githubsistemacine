@@ -1,0 +1,107 @@
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\bin\Debug\ProSistemaCine.exe.config
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\bin\Debug\ProSistemaCine.exe
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\bin\Debug\ProSistemaCine.pdb
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmLogin.resources
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Properties.Resources.resources
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.csproj.GenerateResource.Cache
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.exe
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.pdb
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmAgregarPeliculas.resources
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmAsignarCartelera.resources
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmEmpleado.resources
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmListarPeliculas.resources
+C:\Users\USUARIO\Documents\Visual Studio 2017\Projects\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmPrincipal.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmButacas.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmClientes.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmFormatos.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmFunciones.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmGeneros.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmPeliculas.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmReportes.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmReportesClientes.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmReportesPeliculas.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmReportesTotalVentasAnio.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmReportesTotalVentasDia.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmReportesTotalVentasMes.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmReportesTotalVentasSemana.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmReportesUsuarios.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmSalas.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmTarifas.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmUsuarios.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmListarPeliculas.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmLogin.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmPrincipal.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Presentacion.FrmVentas.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Properties.Resources.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.Utilidades.ButacaButton.resources
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ProSistemaCine.exe.config
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ProSistemaCine.exe
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ProSistemaCine.pdb
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\EnvDTE.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\stdole.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\Microsoft.MSXML.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\RdlCompile.cache
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\RdlCompile.compiled
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.csproj.CopyComplete
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.exe
+C:\Users\PC\Desktop\SlnSistemaCine\ProSistemaCine\obj\Debug\ProSistemaCine.pdb

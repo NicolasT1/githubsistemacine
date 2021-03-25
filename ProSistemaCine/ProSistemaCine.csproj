@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2109B42E-3638-469A-9D45-7DFB5E2BD332}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProSistemaCine</RootNamespace>
+    <AssemblyName>ProSistemaCine</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ProSistemaCine.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1440.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1440.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1440.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1440.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1440.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="db_cineDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_cineDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Entidad\ClsEnButaca.cs" />
+    <Compile Include="Entidad\ClsEnCliente.cs" />
+    <Compile Include="Entidad\ClsEnDetalleVenta.cs" />
+    <Compile Include="Entidad\ClsEnFormato.cs" />
+    <Compile Include="Entidad\ClsEnFuncion.cs" />
+    <Compile Include="Entidad\ClsEnGenero.cs" />
+    <Compile Include="Entidad\ClsEnPelicula.cs" />
+    <Compile Include="Entidad\ClsEnSala.cs" />
+    <Compile Include="Entidad\ClsEnTarifa.cs" />
+    <Compile Include="Entidad\ClsEnUsuario.cs" />
+    <Compile Include="Entidad\ClsEnVenta.cs" />
+    <Compile Include="Negocio\ClsNeButaca.cs" />
+    <Compile Include="Negocio\ClsNeCliente.cs" />
+    <Compile Include="Negocio\ClsNeConexion.cs" />
+    <Compile Include="Negocio\ClsNeDetalleVenta.cs" />
+    <Compile Include="Negocio\ClsNeFormato.cs" />
+    <Compile Include="Negocio\ClsNeFuncion.cs" />
+    <Compile Include="Negocio\ClsNeGenero.cs" />
+    <Compile Include="Negocio\ClsNePelicula.cs" />
+    <Compile Include="Negocio\ClsNeSala.cs" />
+    <Compile Include="Negocio\ClsNeTarifa.cs" />
+    <Compile Include="Negocio\ClsNeUsuario.cs" />
+    <Compile Include="Negocio\ClsNeVenta.cs" />
+    <Compile Include="Presentacion\FrmButacas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmButacas.Designer.cs">
+      <DependentUpon>FrmButacas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmFormatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmFormatos.Designer.cs">
+      <DependentUpon>FrmFormatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmFunciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmFunciones.Designer.cs">
+      <DependentUpon>FrmFunciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmGeneros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmGeneros.Designer.cs">
+      <DependentUpon>FrmGeneros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmPeliculas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmPeliculas.Designer.cs">
+      <DependentUpon>FrmPeliculas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportes.Designer.cs">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesClientes.Designer.cs">
+      <DependentUpon>FrmReportesClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesPeliculas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesPeliculas.Designer.cs">
+      <DependentUpon>FrmReportesPeliculas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesTotalVentasAnio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesTotalVentasAnio.Designer.cs">
+      <DependentUpon>FrmReportesTotalVentasAnio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesTotalVentasDia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesTotalVentasDia.Designer.cs">
+      <DependentUpon>FrmReportesTotalVentasDia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesTotalVentasMes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesTotalVentasMes.Designer.cs">
+      <DependentUpon>FrmReportesTotalVentasMes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesTotalVentasSemana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesTotalVentasSemana.Designer.cs">
+      <DependentUpon>FrmReportesTotalVentasSemana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmReportesUsuarios.Designer.cs">
+      <DependentUpon>FrmReportesUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmSalas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmSalas.Designer.cs">
+      <DependentUpon>FrmSalas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmTarifas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmTarifas.Designer.cs">
+      <DependentUpon>FrmTarifas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmListarPeliculas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmListarPeliculas.Designer.cs">
+      <DependentUpon>FrmListarPeliculas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmVentas.Designer.cs">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Utilidades\ButacaButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utilidades\ButacaButton.Designer.cs">
+      <DependentUpon>ButacaButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\ControlButacas.cs" />
+    <Compile Include="Utilidades\FormState.cs" />
+    <EmbeddedResource Include="Presentacion\FrmButacas.resx">
+      <DependentUpon>FrmButacas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmClientes.resx">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmFormatos.resx">
+      <DependentUpon>FrmFormatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmFunciones.resx">
+      <DependentUpon>FrmFunciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmGeneros.resx">
+      <DependentUpon>FrmGeneros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmPeliculas.resx">
+      <DependentUpon>FrmPeliculas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmReportes.resx">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmReportesClientes.resx">
+      <DependentUpon>FrmReportesClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmReportesPeliculas.resx">
+      <DependentUpon>FrmReportesPeliculas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmReportesTotalVentasAnio.resx">
+      <DependentUpon>FrmReportesTotalVentasAnio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmReportesTotalVentasDia.resx">
+      <DependentUpon>FrmReportesTotalVentasDia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmReportesTotalVentasMes.resx">
+      <DependentUpon>FrmReportesTotalVentasMes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmReportesTotalVentasSemana.resx">
+      <DependentUpon>FrmReportesTotalVentasSemana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmReportesUsuarios.resx">
+      <DependentUpon>FrmReportesUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmSalas.resx">
+      <DependentUpon>FrmSalas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmTarifas.resx">
+      <DependentUpon>FrmTarifas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmListarPeliculas.resx">
+      <DependentUpon>FrmListarPeliculas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmVentas.resx">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\ReporteClientes.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\ReportePeliculas.rdlc" />
+    <EmbeddedResource Include="Presentacion\ReporteTotalVentasAnio.rdlc" />
+    <EmbeddedResource Include="Presentacion\ReporteTotalVentasDia.rdlc" />
+    <EmbeddedResource Include="Presentacion\ReporteTotalVentasMes.rdlc" />
+    <EmbeddedResource Include="Presentacion\ReporteTotalVentasSemana.rdlc" />
+    <EmbeddedResource Include="Presentacion\ReporteUsuarios.rdlc" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Utilidades\ButacaButton.resx">
+      <DependentUpon>ButacaButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="db_cineDataSet.xsc">
+      <DependentUpon>db_cineDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db_cineDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_cineDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_cineDataSet.xss">
+      <DependentUpon>db_cineDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cineplanet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CINE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon cerrar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cineplanet_Vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Noticia-200857-estos-son-los-requisitos-que-exige-cineplanet-para-el-ingreso-de-alimentos-a-las-salas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagen1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagen2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rollo-pelicula-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ENTRADA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\relo3.png" />
+    <Content Include="Resources\reloj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
